@@ -1,0 +1,31 @@
+.logo {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+// Navigation
+.main-nav {
+  display: flex;
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    color: var(--color-grey-dark);
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+  }
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: var(--color-grey-dark);
+  padding: 1rem 1.7rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}

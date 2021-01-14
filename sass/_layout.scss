@@ -1,0 +1,15 @@
+.container {
+  background-color: rgb(243, 243, 243);
+  max-width: 124rem;
+  margin: 8rem auto;
+  min-height: 50rem;
+}
+
+.header {
+  font-size: 1.4rem;
+  padding: 4rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
