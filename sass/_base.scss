@@ -1,7 +1,8 @@
 /* Colors */
 
 :root {
-  --color-grey-dark: rgb(43, 42, 42);
+  --color-grey-dark-1: rgb(43, 42, 42);
+  --color-grey-dark-2: rgb(65, 65, 65);
 }
 
 * {
@@ -24,7 +25,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  color: var(--color-grey-dark);
+  color: var(--color-grey-dark-1);
   background-image: linear-gradient(rgb(222, 225, 250), rgb(196, 203, 248));
   background-size: cover;
 }
