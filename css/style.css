@@ -48,7 +48,7 @@ body {
 .qualities {
   grid-column: center-start / center-end;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-template-rows: repeat(2, min-content);
   grid-row-gap: 4rem;
   grid-column-gap: 3rem; }
@@ -57,13 +57,13 @@ body {
 
 .quality {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, min-content);
-  justify-items: end;
+  grid-template-columns: min-content 1fr;
   align-items: center;
   grid-column-gap: 6rem; }
   .quality__emote {
-    grid-row: 1 / -1; }
+    grid-row: 1 / span 2; }
+  .quality__text {
+    font-size: 1.7rem; }
 
 .packages {
   background-color: blueviolet;
