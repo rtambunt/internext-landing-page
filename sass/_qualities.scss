@@ -1,4 +1,7 @@
 .qualities {
   background-color: yellowgreen;
   grid-column: center-start / center-end;
+
+  // display: grid;
+  // grid-template: repeat(3, 1fr);
 }
