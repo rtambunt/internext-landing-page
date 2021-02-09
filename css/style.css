@@ -35,7 +35,9 @@ body {
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
-  -o-border-radius: 25px; }
+  -o-border-radius: 25px;
+  display: grid;
+  grid-template-rows: 80vh repeat(8, min-content); }
 
 .header {
   font-size: 1.4rem;

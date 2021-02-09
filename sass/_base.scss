@@ -43,6 +43,6 @@ body {
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
 
-  // display: grid;
-  // grid-template-rows: ;
+  display: grid;
+  grid-template-rows: 80vh repeat(8, min-content);
 }
