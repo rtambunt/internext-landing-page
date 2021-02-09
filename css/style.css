@@ -24,6 +24,25 @@ body {
   background-image: linear-gradient(#dee1fa, #c4cbf8);
   background-size: cover; }
 
+.container {
+  background-color: #f3f3f3;
+  max-width: 124rem;
+  margin: 8rem auto;
+  padding: 4rem 6rem;
+  min-height: 50rem;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px; }
+
+.header {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
 .logo {
   font-weight: 700;
   font-size: 2.5rem;
@@ -67,22 +86,3 @@ body {
 .btn:hover, .btn:active {
   background-color: var(--color-grey-dark-2);
   color: white; }
-
-.container {
-  background-color: #f3f3f3;
-  max-width: 124rem;
-  margin: 8rem auto;
-  padding: 4rem 6rem;
-  min-height: 50rem;
-  border: 1px solid transparent;
-  border-radius: 25px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -ms-border-radius: 25px;
-  -o-border-radius: 25px; }
-
-.header {
-  font-size: 1.4rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
