@@ -52,6 +52,12 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, min-content);
     grid-gap: 3rem; }
+    .qualities__grid .quality {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, min-content); }
+      .qualities__grid .quality__emote {
+        grid-row: 1 / -1; }
 
 .packages {
   background-color: blueviolet;
