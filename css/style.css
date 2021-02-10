@@ -26,7 +26,7 @@ body {
   background-color: #f3f3f3;
   display: grid;
   grid-template-rows: 80vh repeat(8, min-content);
-  grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
+  grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 21rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
   .container > * {
     font-size: 3rem; }
 
