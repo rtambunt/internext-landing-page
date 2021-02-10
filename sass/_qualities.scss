@@ -18,11 +18,15 @@
 .quality {
   display: grid;
   grid-template-columns: min-content 1fr;
-  align-items: center;
   grid-column-gap: 6rem;
 
   &__emote {
     grid-row: 1 / span 2;
+    transform: translateY(1rem) translateX(2rem);
+    -webkit-transform: translateY(1rem) translateX(2rem);
+    -moz-transform: translateY(1rem) translateX(2rem);
+    -ms-transform: translateY(1rem) translateX(2rem);
+    -o-transform: translateY(1rem) translateX(2rem);
   }
 
   &__text {
