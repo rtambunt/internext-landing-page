@@ -1,9 +1,10 @@
 .qualities {
   grid-column: center-start / center-end;
 
+  margin: 15rem 0;
+
   display: grid;
-  // grid-template-columns: repeat(3, 1fr);
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, min-content);
   grid-row-gap: 4rem;
   grid-column-gap: 3rem;
