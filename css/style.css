@@ -27,8 +27,6 @@ body {
   display: grid;
   grid-template-rows: 80vh repeat(8, min-content);
   grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 21rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
-  .container > * {
-    font-size: 3rem; }
 
 .heading-1, .heading-2, .heading-3, .heading-4, .heading-5 {
   font-weight: 400; }
