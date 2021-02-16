@@ -33,8 +33,19 @@ body {
 .heading-1, .heading-2, .heading-3, .heading-4, .heading-5 {
   font-weight: 400; }
 
+.heading-2 {
+  font-size: 3rem; }
+
+.heading-3 {
+  font-size: 2.7rem;
+  font-weight: 700; }
+
+.heading-4 {
+  font-size: 2.4rem;
+  font-weight: 400; }
+
 .heading-5 {
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   font-weight: 700; }
 
 .header {
@@ -52,7 +63,6 @@ body {
   margin: 15rem 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, min-content);
   grid-row-gap: 4rem;
   grid-column-gap: 3rem;
   align-items: start; }
@@ -62,14 +72,14 @@ body {
 .quality {
   display: grid;
   grid-template-columns: min-content 1fr;
-  grid-column-gap: 6rem; }
+  grid-column-gap: 10rem; }
   .quality__emote {
     grid-row: 1 / span 2;
-    transform: translateY(1rem) translateX(2rem);
-    -webkit-transform: translateY(1rem) translateX(2rem);
-    -moz-transform: translateY(1rem) translateX(2rem);
-    -ms-transform: translateY(1rem) translateX(2rem);
-    -o-transform: translateY(1rem) translateX(2rem); }
+    transform: translateY(1rem) translateX(5rem);
+    -webkit-transform: translateY(1rem) translateX(5rem);
+    -moz-transform: translateY(1rem) translateX(5rem);
+    -ms-transform: translateY(1rem) translateX(5rem);
+    -o-transform: translateY(1rem) translateX(5rem); }
   .quality__text {
     font-size: 1.7rem; }
 
@@ -82,7 +92,6 @@ body {
   grid-column: center-start / center-end; }
 
 .location {
-  background-color: royalblue;
   grid-column: center-start / center-end; }
 
 .reviews {
