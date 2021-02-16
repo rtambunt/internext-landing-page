@@ -92,7 +92,19 @@ body {
   grid-column: center-start / center-end; }
 
 .location {
-  grid-column: center-start / center-end; }
+  grid-column: center-start / center-end;
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  grid-template-rows: repeat(3, min-content);
+  grid-column-gap: 3rem;
+  grid-row-gap: 1.5rem;
+  align-items: center; }
+  .location__img {
+    height: 500px;
+    width: auto;
+    grid-row: 1 / -1;
+    grid-column: 2 / 2; }
 
 .reviews {
   background-color: goldenrod;
