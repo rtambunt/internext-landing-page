@@ -35,16 +35,36 @@ body {
   font-size: 3rem; }
 
 .heading-3 {
-  font-size: 2.7rem;
+  font-size: 3rem;
   font-weight: 700; }
 
 .heading-4 {
-  font-size: 2.4rem;
+  font-size: 2.7rem;
   font-weight: 400; }
 
 .heading-5 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700; }
+
+.btn {
+  background-color: #4848b6;
+  color: #f7f7f7;
+  font-size: 1.6rem;
+  padding: 1.3rem 2rem;
+  border: none;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s; }
+  .btn:hover {
+    background-color: #5555b6; }
 
 .header {
   font-size: 1.4rem;
@@ -72,6 +92,7 @@ body {
   grid-template-columns: min-content 1fr;
   grid-column-gap: 10rem; }
   .quality__emote {
+    font-size: 1.7rem;
     grid-row: 1 / span 2;
     transform: translateY(1rem) translateX(5rem);
     -webkit-transform: translateY(1rem) translateX(5rem);
@@ -97,12 +118,15 @@ body {
   grid-template-rows: repeat(3, min-content);
   grid-column-gap: 3rem;
   grid-row-gap: 1.5rem;
-  align-items: center; }
+  align-items: center;
+  justify-items: start; }
   .location__img {
     height: 500px;
     width: auto;
     grid-row: 1 / -1;
     grid-column: 2 / 2; }
+  .location__text {
+    font-size: 1.7rem; }
 
 .reviews {
   background-color: goldenrod;

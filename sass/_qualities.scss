@@ -20,6 +20,7 @@
   grid-column-gap: 10rem;
 
   &__emote {
+    font-size: 1.7rem;
     grid-row: 1 / span 2;
     transform: translateY(1rem) translateX(5rem);
     -webkit-transform: translateY(1rem) translateX(5rem);
