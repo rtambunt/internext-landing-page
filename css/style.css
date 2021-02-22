@@ -67,12 +67,6 @@ body {
   -o-transition: all 0.2s; }
   .btn:hover {
     background-color: var(--color-primary-dark); }
-  .btn--dark {
-    background-color: var(--color-grey-dark-1);
-    font-size: 1.4rem;
-    text-decoration: none; }
-    .btn--dark:hover {
-      background-color: var(--color-grey-dark-2); }
 
 .header {
   font-size: 1.4rem;
@@ -82,6 +76,12 @@ body {
   grid-template-columns: repeat(3, 1fr);
   justify-items: end;
   align-items: start; }
+  .header__btn {
+    background-color: var(--color-grey-dark-1);
+    font-size: 1.4rem;
+    text-decoration: none; }
+    .header__btn:hover {
+      background-color: var(--color-grey-dark-2); }
 
 .logo {
   font-weight: 700;

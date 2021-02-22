@@ -7,6 +7,16 @@
   grid-template-columns: repeat(3, 1fr);
   justify-items: end;
   align-items: start;
+
+  &__btn {
+    background-color: var(--color-grey-dark-1);
+    font-size: 1.4rem;
+    text-decoration: none;
+
+    &:hover {
+      background-color: var(--color-grey-dark-2);
+    }
+  }
 }
 
 // Components
