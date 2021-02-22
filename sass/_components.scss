@@ -2,7 +2,7 @@
   background-color: var(--color-primary);
   color: rgb(247, 247, 247);
   font-size: 1.6rem;
-  padding: 1.3rem 2rem;
+  padding: 1.2rem 2.5rem;
   border: none;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
@@ -22,6 +22,8 @@
 
   &--dark {
     background-color: var(--color-grey-dark-1);
+    font-size: 1.4rem;
+    text-decoration: none;
 
     &:hover {
       background-color: var(--color-grey-dark-2);

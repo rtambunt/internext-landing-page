@@ -37,7 +37,7 @@ body {
   background-color: rgb(243, 243, 243);
 
   display: grid;
-  grid-template-rows: 80vh repeat(8, min-content);
+  grid-template-rows: repeat(9, min-content);
   grid-template-columns:
     [full-start] minmax(6rem, 1fr) [center-start] repeat(
       8,
