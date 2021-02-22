@@ -1,5 +1,5 @@
 .btn {
-  background-color: rgb(72, 72, 182);
+  background-color: var(--color-primary);
   color: rgb(247, 247, 247);
   font-size: 1.6rem;
   padding: 1.3rem 2rem;
@@ -17,6 +17,14 @@
   -o-transition: all 0.2s;
 
   &:hover {
-    background-color: rgb(85, 85, 182);
+    background-color: var(--color-primary-dark);
+  }
+
+  &--dark {
+    background-color: var(--color-grey-dark-1);
+
+    &:hover {
+      background-color: var(--color-grey-dark-2);
+    }
   }
 }
