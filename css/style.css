@@ -33,6 +33,10 @@ body {
 .heading-1, .heading-2, .heading-3, .heading-4, .heading-5 {
   font-weight: 400; }
 
+.heading-1 {
+  font-size: 4.5rem;
+  font-weight: 900; }
+
 .heading-2 {
   font-size: 3rem; }
 
@@ -111,8 +115,11 @@ body {
     border-bottom: 1.5px solid var(--color-grey-dark-2); }
 
 .overview {
-  background-color: orangered;
   grid-column: center-start / center-end; }
+  .overview__img {
+    width: 50%; }
+  .overview__text {
+    font-size: 1.6rem; }
 
 .qualities {
   grid-column: center-start / center-end;

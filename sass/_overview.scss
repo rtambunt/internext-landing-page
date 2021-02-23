@@ -1,4 +1,11 @@
 .overview {
-  background-color: orangered;
   grid-column: center-start / center-end;
+
+  &__img {
+    width: 50%;
+  }
+
+  &__text {
+    font-size: 1.6rem;
+  }
 }
