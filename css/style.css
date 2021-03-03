@@ -19,6 +19,7 @@ html {
   font-size: 62.5%; }
 
 body {
+  font-size: 1.7rem;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.6;
@@ -35,7 +36,8 @@ body {
 
 .heading-1 {
   font-size: 4.5rem;
-  font-weight: 900; }
+  font-weight: 900;
+  line-height: 1.3; }
 
 .heading-2 {
   font-size: 3rem; }
@@ -119,14 +121,12 @@ body {
   padding: 10rem 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 3rem;
   justify-items: start;
   align-items: center; }
   .overview__img {
     width: 40rem;
-    grid-row: span 3; }
-  .overview__text {
-    font-size: 1.6rem; }
+    grid-row: span 3;
+    justify-self: center; }
 
 .qualities {
   grid-column: center-start / center-end;
@@ -151,12 +151,25 @@ body {
     -moz-transform: translateY(1rem) translateX(5rem);
     -ms-transform: translateY(1rem) translateX(5rem);
     -o-transform: translateY(1rem) translateX(5rem); }
-  .quality__text {
-    font-size: 1.7rem; }
 
 .packages {
-  background-color: blueviolet;
   grid-column: center-start / full-end; }
+  .packages__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    column-gap: 5rem; }
+  .packages button {
+    display: block;
+    margin: auto;
+    margin-top: 7rem; }
+
+.package {
+  display: grid; }
+  .package__img {
+    justify-self: center;
+    width: 60%; }
+  .package__text {
+    width: 90%; }
 
 .connect {
   background-color: palevioletred;
@@ -177,8 +190,6 @@ body {
     width: auto;
     grid-row: 1 / -1;
     grid-column: 2 / 2; }
-  .location__text {
-    font-size: 1.7rem; }
 
 .reviews {
   background-color: goldenrod;

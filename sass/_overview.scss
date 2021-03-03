@@ -4,7 +4,6 @@
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 3rem;
   justify-items: start;
   align-items: center;
 
@@ -12,9 +11,6 @@
     width: 40rem;
 
     grid-row: span 3;
-  }
-
-  &__text {
-    font-size: 1.6rem;
+    justify-self: center;
   }
 }

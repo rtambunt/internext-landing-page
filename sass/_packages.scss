@@ -1,4 +1,29 @@
 .packages {
-  background-color: blueviolet;
   grid-column: center-start / full-end;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    column-gap: 5rem;
+  }
+
+  button {
+    display: block;
+    margin: auto;
+    margin-top: 7rem;
+  }
+}
+
+.package {
+  display: grid;
+
+  &__img {
+    justify-self: center;
+
+    width: 60%;
+  }
+
+  &__text {
+    width: 90%;
+  }
 }
