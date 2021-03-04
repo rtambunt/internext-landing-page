@@ -1,6 +1,8 @@
 .packages {
   grid-column: center-start / full-end;
 
+  padding: 3rem 0 8rem 0;
+
   &__container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
