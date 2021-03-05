@@ -217,8 +217,23 @@ body {
     grid-column: 2 / 2; }
 
 .reviews {
-  background-color: goldenrod;
-  grid-column: center-start / center-end; }
+  grid-column: center-start / center-end;
+  padding: 8rem;
+  text-align: center; }
+  .reviews__text {
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem; }
+  .reviews__customer {
+    margin-top: 5rem;
+    font-weight: 700; }
+    .reviews__customer--img {
+      width: 8rem;
+      border-radius: 50px;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      -o-border-radius: 50px; }
 
 .faq {
   grid-column: center-start / center-end; }
