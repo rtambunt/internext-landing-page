@@ -1,9 +1,11 @@
-.reviews {
+#reviews {
   grid-column: center-start / center-end;
 
   padding: 8rem;
   text-align: center;
+}
 
+.reviews {
   &__text {
     width: 70%;
     margin: auto;
